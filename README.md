@@ -48,9 +48,11 @@ Expense report:
 
 ```Plain text
 Expense Summary by Category:
-- Category | Quantity |
--
-- Food | 15.50 |
++------------+--------+
+|  Category  | Amount |
++------------+--------+
+|    Food    |  15.50 |
++------------+--------+
 ```
 
 ### 4. Save costs
