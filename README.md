@@ -35,11 +35,12 @@ Enter amount: $15.50
 
 Production example:
 ```Plain text
-Expense report:
--
-- Date | Category | Description | Quantity |
--
-- 22-11-2024 | Food | Lunch at the cafe | 3:50 p.m. |
+Expense Report:
++------------+------------+--------------------+--------+
+|    Date    |  Category  |     Description    | Amount |
++------------+------------+--------------------+--------+
+| 2024-11-22 |    Food    | Lunch at Cafe      |  15.50 |
++------------+------------+--------------------+--------+
 ```
 
 
@@ -58,19 +59,25 @@ Expense Summary by Category:
 ### 4. Save costs
 - Select option **4** to save your expenses as a CSV file. You can specify a file name or press Enter to save the default file name with `expenses.csv`
 
+```Plain text
 Enter filename to save expenses (default 'expenses.csv'): expenses.csv
 Expenses saved to expenses.csv
+```
 
 ### 5. Weight cost
 - Select option **5** to load previously saved costs from a CSV file. You can specify a file name or press Enter to load from the default `expenses.csv`.
 
+```Plain text
 Enter filename to load expenses (default 'expenses.csv'): expenses.csv
 Expenses loaded from expenses.csv
+```
 
 ### 6. Exit the application.
 - Select option **6** to exit the application. The application ends with saying goodbye.
 
+```Plain text
 Exiting... Goodbye!
+```
 
 ### File Structure
 - expenses.csv: This file will store your recorded expenses (if saved).
