@@ -23,34 +23,35 @@ This expense tracking app helps you track your expenses by recording relevant de
 - Enter the amount of expenses
 
 example:
+```Plain text
 Enter date (YYYY-MM-DD): 2024-11-2
 Enter category: Food
 Fill in the details: Have lunch at the cafe.
 Enter amount: $15.50
--
+```
 
 ### 2. View expenses
 - Select option **2** from the main menu to display all recorded expenses.
 
 Production example:
-Expense Report:
-+------------+------------+--------------------+--------+
-|    Date    |  Category  |     Description    | Amount |
-+------------+------------+--------------------+--------+
-| 2024-11-22 |    Food    | Lunch at Cafe      |  15.50 |
-+------------+------------+--------------------+--------+
+```Plain text
+Expense report:
+-
+- Date | Category | Description | Quantity |
+-
+- 22-11-2024 | Food | Lunch at the cafe | 3:50 p.m. |
+```
 
 
 ### 3. Generate report
 - Select option **3** to create a summary of expenses by category. It shows the total amount used in each category.
 
+```Plain text
 Expense Summary by Category:
-+------------+--------+
-|  Category  | Amount |
-+------------+--------+
-|    Food    |  15.50 |
-+------------+--------+
-
+- Category | Quantity |
+-
+- Food | 15.50 |
+```
 
 ### 4. Save costs
 - Select option **4** to save your expenses as a CSV file. You can specify a file name or press Enter to save the default file name with `expenses.csv`
